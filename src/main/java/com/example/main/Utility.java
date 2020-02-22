@@ -12,4 +12,10 @@ public class Utility {
 		return first2Chars.replaceAll("A", "") + truncatedStr;
 	}
 	
+	public String toUpperCase(String lowerCaseStr) {
+		String uppercase = lowerCaseStr.toUpperCase();
+		return uppercase ;
+		
+	}
+	
 }
